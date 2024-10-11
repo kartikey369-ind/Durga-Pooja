@@ -419,3 +419,44 @@ button:hover {
 .text-center {
     text-align: center;
 }
+.footer {
+    background-color: #34495e; /* Dark blue-gray color for the footer */
+    color: #ecf0f1; /* Light gray for text */
+    text-align: center;
+    padding: 5px 0; /* Further reduced padding */
+    position: relative; /* Position it at the bottom of the page */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.social-media {
+    margin-bottom: 2px; /* Further reduced margin */
+}
+
+.social-media a {
+    color: #ecf0f1; /* Light gray for link color */
+    text-decoration: none;
+    margin: 0 3px; /* Further reduced margin between links */
+    font-size: 0.8rem; /* Reduced font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.social-media a:hover {
+    color: #f39c12; /* Bright orange on hover */
+    transform: scale(1.02); /* Slightly less enlargement on hover */
+}
+
+.footer p {
+    font-size: 0.6rem; /* Further reduced font size for additional text */
+    margin-top: 2px; /* Reduced space between social links and text */
+}
+
+
+
+.sound-note {
+    font-size: 0.7rem; /* Size of the note */
+    color: #ecf0f1; /* Light gray to match the footer text */
+    margin-top: 2px; /* Space between social media links and note */
+    opacity: 0.8; /* Slightly transparent for a subtle effect */
+    font-weight: bold; /* Make the text bold */
+}
+
